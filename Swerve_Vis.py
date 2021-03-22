@@ -2,7 +2,6 @@ from manimlib.imports import *
 import math
 
 class A_Swerve(Scene):
-  # Displays the title of the manim.
   def construct(self):
     chassis = Square(side_length=2, stroke_width=0, fill_color=GRAY, fill_opacity=1).shift(2*RIGHT)
 
